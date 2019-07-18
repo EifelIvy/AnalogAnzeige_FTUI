@@ -4,7 +4,11 @@ Analoge Messgeraete FTUI
 Ausgabe von Messwerten (z.B. Leistungserzeugung PV-Anlage) als Analoges Messgeraet fuer FTUI
 
 data-type="analogscala" 
-data-vfont="Digital" data-font="Times"
+data-device=<device> data-get=<reading>
+    
+data-actColor=<Farbe der Messwerte> data-bgcolor=<Hintergrund> data-fgcolor=<Skala> data-hdcolor=<Zeiger>
+  
+data-vfont=<Font Messwert> data-font=<Font Skala>
 
 # Fuer die Teilung der Skala
 data-tickhighlight="10" data-tickstep="20"                                  
