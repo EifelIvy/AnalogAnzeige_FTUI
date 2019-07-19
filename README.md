@@ -2,7 +2,8 @@
 
 Display readingsvalue in analogue gauge style, e.g. cockpit for photovoltaic-systems. The widget is styled regarding analogue electrical gauges.
 
-(examples/photo1,png?raw=true)
+![Alt text](examples/photo1.png?raw=true)
+
 
 ## Install
 copy the file widget_analogscala.js into the corresponding folder of your FHEM server /<fhem-path>/www/tablet/js
