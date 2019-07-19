@@ -6,7 +6,7 @@ Display readingsvalue in analogue gauge style, e.g. cockpit for photovoltaic-sys
 
 
 ## Install
-copy the file widget_analogscala.js into the corresponding folder of your FHEM server /<fhem-path>/www/tablet/js
+copy the file widget_analogscala.js into the corresponding folder of your FHEM server [$FHEMPATH]/www/tablet/js
 
 ## Forum
 FHEM Forum FTUI
