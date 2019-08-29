@@ -106,10 +106,10 @@ var isUpdating = false;
             analogscala_elem.knob({
                 
                 'displayNominal': false,
-                'step': 1,
+                'step': elem.data('step') || 1,
                 'angleOffset': -60,
                 'angleArc': 120,
-                'thickness': 0.28,
+                'thickness': elem.data('thickness') || 0.28,
                 
                 'height': Math.floor(elem.data('height') / 2),
                 'width': elem.data('width'),
@@ -127,7 +127,7 @@ var isUpdating = false;
                 'tickdistance': elem.data('tickstep') || 10,
                 'tickhighlight': elem.data('tickhighlight') || 10,
                 'vfont': elem.data('vfont') || 'Times',
-                'font': elem.data('font'),
+                'font': elem.data('font') || 'Times',
                 'unit': elem.data('unit') || '',
                 'mintext': elem.data('mintext') || '',
                 'maxtext': elem.data('maxtext') || ''
